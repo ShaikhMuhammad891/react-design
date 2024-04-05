@@ -4,7 +4,7 @@ const StartedButton = () => {
   return (
     <>
       <div>
-        <button className=" py-[19px] px-[30px] bg-[#57007B] font-inter font-[600] text-[14px] text-[#FAFAFA] leading-[14px]">
+        <button className=" py-[19px] px-[30px] bg-[#57007B] font-inter font-[600] text-[14px] text-[#FAFAFA] leading-[14px] rounded-[5px]">
           Let's get started
         </button>
       </div>

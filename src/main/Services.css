@@ -1,0 +1,8 @@
+/* Services.css */
+.slide {
+  transition: transform 0.3s ease;
+}
+
+.slide.selected {
+  transform: scale(1.1); /* Example: Scale up the selected slide */
+}
