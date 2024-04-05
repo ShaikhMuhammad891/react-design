@@ -106,3 +106,62 @@ export const Eclips = () => {
   );
 };
 
+export const Line = () => {
+  return (
+    <>
+      <svg
+        width="69"
+        height="5"
+        viewBox="0 0 69 5"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="69" height="5" fill="url(#paint0_linear_196_145)" />
+        <defs>
+          <linearGradient
+            id="paint0_linear_196_145"
+            x1="69"
+            y1="0"
+            x2="68.2791"
+            y2="9.94776"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#F76680" />
+            <stop offset="1" stop-color="#57007B" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </>
+  );
+};
+
+export const ArrowForward = () => {
+  return (
+    <>
+      <svg
+        width="24"
+        height="25"
+        viewBox="0 0 24 25"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g clip-path="url(#clip0_235_61)">
+          <path
+            d="M16.172 11.5L10.808 6.13605L12.222 4.72205L20 12.5L12.222 20.278L10.808 18.864L16.172 13.5H4V11.5H16.172Z"
+            fill="#57007B"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_235_61">
+            <rect
+              width="24"
+              height="24"
+              fill="white"
+              transform="translate(0 0.5)"
+            />
+          </clipPath>
+        </defs>
+      </svg>
+    </>
+  );
+};
