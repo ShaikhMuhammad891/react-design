@@ -282,3 +282,35 @@ export const QuoteEnd = () => (
     </svg>
   </>
 );
+
+export const ReadMore = () => {
+  return (
+    <>
+      <svg
+        width="9"
+        height="15"
+        viewBox="0 0 9 15"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M5.81851 7.49983L0.249756 1.93108L1.84051 0.340332L9.00001 7.49983L1.84051 14.6593L0.249756 13.0686L5.81851 7.49983Z"
+          fill="url(#paint0_linear_296_462)"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_296_462"
+            x1="9.00001"
+            y1="0.340332"
+            x2="-3.74213"
+            y2="8.12697"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#F76680" />
+            <stop offset="1" stop-color="#57007B" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </>
+  );
+};

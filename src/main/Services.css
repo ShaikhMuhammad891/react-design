@@ -12,3 +12,10 @@
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
+
+.text-color {
+  background: linear-gradient(225deg, #f76680 0%, #57007b 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
