@@ -5,6 +5,8 @@ import Trust from "./Trust";
 import Customer from "./Customer";
 import CaseStudies from "./CaseStudies";
 import GreatSoftwares from "./GreatSoftwares";
+import Approach from "./Approach";
+import TechStack from "./TechStack";
 
 const LandingPage = () => {
   return (
@@ -15,6 +17,8 @@ const LandingPage = () => {
       <Customer />
       <CaseStudies />
       <GreatSoftwares />
+      <Approach />
+      <TechStack />
     </>
   );
 };
