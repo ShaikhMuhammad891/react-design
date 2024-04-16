@@ -5,7 +5,6 @@ import {
   Line,
   QuoteEnd,
   QuoteStart,
-  RatingStars,
 } from "../assets/Logos";
 
 const Customer = () => {
