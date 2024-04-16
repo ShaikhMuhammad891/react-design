@@ -314,3 +314,137 @@ export const ReadMore = () => {
     </>
   );
 };
+
+export const VerticalLine = () => {
+  return (
+    <>
+      <svg
+        width="3"
+        height="87"
+        viewBox="0 0 3 87"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect width="3" height="87" fill="url(#paint0_linear_300_484)" />
+        <defs>
+          <linearGradient
+            id="paint0_linear_300_484"
+            x1="3"
+            y1="0"
+            x2="-2.99287"
+            y2="0.206651"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#F76680" />
+            <stop offset="1" stop-color="#57007B" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </>
+  );
+};
+
+export const YellowEclips = () => {
+  return (
+    <>
+      <svg
+        width="66"
+        height="66"
+        viewBox="0 0 66 66"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="32.9051"
+          cy="32.9051"
+          r="32.241"
+          transform="rotate(35.0154 32.9051 32.9051)"
+          fill="url(#paint0_linear_300_476)"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_300_476"
+            x1="65.1462"
+            y1="0.664104"
+            x2="0.664093"
+            y2="65.1462"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#FFEF5E" />
+            <stop offset="1" stop-color="#F7936F" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </>
+  );
+};
+
+export const LittleEclips = () => {
+  return (
+    <>
+      <svg
+        width="32"
+        height="32"
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="16.325"
+          cy="16.3274"
+          r="15.6807"
+          transform="rotate(35.0154 16.325 16.3274)"
+          fill="url(#paint0_linear_1_16)"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_1_16"
+            x1="32.0057"
+            y1="0.646792"
+            x2="0.644361"
+            y2="32.0081"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#F76680" />
+            <stop offset="1" stop-color="#57007B" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </>
+  );
+};
+
+export const LittleYellow = () => {
+  return (
+    <>
+      <svg
+        width="45"
+        height="45"
+        viewBox="0 0 45 45"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle
+          cx="22.4179"
+          cy="22.4184"
+          r="21.8395"
+          transform="rotate(35.0154 22.4179 22.4184)"
+          fill="url(#paint0_linear_300_480)"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_300_480"
+            x1="44.2574"
+            y1="0.578922"
+            x2="0.578402"
+            y2="44.2579"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#FFEF5E" />
+            <stop offset="1" stop-color="#F7936F" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </>
+  );
+};

@@ -5,7 +5,7 @@ import "./Services.css";
 const CaseStudies = () => {
   return (
     <>
-      <div className=" border border-[#E7DAED] mt-2 pt-[89px]">
+      <div className=" border-y border-[#E7DAED] mt-2 pt-[89px] bg-[#f7f7fa] pb-[88px]">
         <div className="">
           <div className=" flex justify-center">
             <Line />

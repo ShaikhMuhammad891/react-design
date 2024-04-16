@@ -90,12 +90,14 @@ const Customer = () => {
             </>
           ))}
         </div>
-        <div className=" flex justify-between absolute bottom-[-140px] min-w-[1280px]">
-          <div>
-            <img src="/images/deco-up.png" alt="" />
-          </div>
-          <div>
-            <img src="/images/deco-down.png" alt="" />
+        <div className="  w-full mx-auto flex justify-center">
+          <div className=" flex justify-between absolute max-w-[1063px] w-full mt-[-100px]">
+            <div>
+              <img src="/images/deco-up.png" alt="" />
+            </div>
+            <div>
+              <img src="/images/deco-down.png" alt="" />
+            </div>
           </div>
         </div>
 
