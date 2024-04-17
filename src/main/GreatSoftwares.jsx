@@ -34,7 +34,7 @@ const GreatSoftwares = () => {
           <div className=" absolute min-w-[1233px] flex justify-center ml-[50px] top-[-25px]">
             <YellowEclips />
           </div>
-          <div className=" min-w-[1233px] flex justify-center ml-[330px] absolute bottom-[-18px]">
+          <div className=" min-w-[123px] flex justify-center ml-[830px] absolute bottom-[-18px]">
             <LittleEclips />
           </div>
           <div className=" flex justify-between mt-[73px]">
@@ -87,10 +87,10 @@ const GreatSoftwares = () => {
         {/* two */}
 
         <div className="max-w-[1233px] w-full mx-auto relative">
-          <div className=" min-w-[1233px] flex justify-start ml-[550px] absolute mt-[-12px]">
+          <div className=" min-w-[133px] flex justify-start ml-[550px] absolute mt-[-12px]">
             <LittleEclips />
           </div>
-          <div className=" min-w-[1233px] absolute bottom-[-30px] ml-[280px] ">
+          <div className=" min-w-[133px] absolute bottom-[-30px] ml-[280px] ">
             <YellowEclips />
           </div>
 
@@ -147,7 +147,7 @@ const GreatSoftwares = () => {
           <div className=" absolute flex justify-center bottom-[-16px] min-w-[1233px] ml-[45px]">
             <LittleYellow />
           </div>
-          <div className=" min-w-[1233px] flex justify-center absolute ml-[350px] top-[-16px]">
+          <div className=" min-w-[133px] flex justify-center absolute ml-[850px] top-[-16px]">
             <LittleEclips />
           </div>
           <div></div>

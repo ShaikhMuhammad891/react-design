@@ -7,6 +7,9 @@ import CaseStudies from "./CaseStudies";
 import GreatSoftwares from "./GreatSoftwares";
 import Approach from "./Approach";
 import TechStack from "./TechStack";
+import Alcline from "./Alcaline";
+import Resources from "./Resources";
+import Footer from "./Footer";
 
 const LandingPage = () => {
   return (
@@ -19,6 +22,9 @@ const LandingPage = () => {
       <GreatSoftwares />
       <Approach />
       <TechStack />
+      <Alcline />
+      <Resources />
+      <Footer />
     </>
   );
 };
