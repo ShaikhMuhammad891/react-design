@@ -18,11 +18,11 @@ const Approach = () => {
         </div>
 
         {/* map the data */}
-        <div className=" ml-[102px] grid grid-rows-3 grid-flow-col gap-[25px] mt-[80px] max-w-[1233px] mb-[98px]">
+        <div className="grid xl:grid-rows-3 grid-flow-col gap-[25px] mt-[80px] xl:max-w-[1233px] mb-[98px] lg:grid-rows-6 lg:max-w-[610px] mx-auto md:grid-rows-6 md:max-w-[550px] ">
           {data.map((e, i) => {
             return (
               <>
-                <div className=" w-[604px] flex border border-[#E7DAED] pt-[59px] pl-[34px] bg-[#FAFAFA] pb-[78px] ">
+                <div className=" lg:w-[550px] flex border border-[#E7DAED] pt-[39px] pl-[14px] bg-[#FAFAFA] pb-[58px] ">
                   <div
                     style={{ background: e.bg }}
                     className={` w-[59px] h-[56px] px-[10px] py-[10px] rounded-lg`}

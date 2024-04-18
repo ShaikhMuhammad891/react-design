@@ -10,7 +10,7 @@ const CaseStudies = () => {
           <div className=" flex justify-center">
             <Line />
           </div>
-          <p className=" text-[#1A202C] text-[35px] leading-[55px] font-[400] font-inter text-center mt-[20px]">
+          <p className=" text-[#1A202C] lg:text-[35px] md:text-[25px] lg:leading-[55px] md:leading-[45px] font-[400] font-inter text-center mt-[20px]">
             Our recent
             <span className=" font-[700]">
               <br />
@@ -19,15 +19,15 @@ const CaseStudies = () => {
           </p>
         </div>
 
-        <div className=" max-w-[1232px] mx-auto flex mt-[81px] bg-[#F1F2FF] border rounded-[15px]">
-          <div>
+        <div className=" max-w-[1232px] mx-auto lg:flex lg:mt-[81px] md:mt-[61px] bg-[#F1F2FF] border rounded-[15px]">
+          <div className=" md:mx-auto flex justify-center">
             <img
               src="/images/theme-one.png"
               alt=""
               className=" max-w-[601px]"
             />
           </div>
-          <div className=" pt-[66px] px-[51px] max-w-[540px] inset-0">
+          <div className=" pt-[66px] px-[51px] md:max-w-[540px] md:ml-[25px] inset-0">
             <p className=" text-[28px] text-[#2D3748] font-inter font-[600] leading-[38.3px]">
               Website Design for SCFC Canada
             </p>
@@ -39,7 +39,7 @@ const CaseStudies = () => {
               management boasts of over 20 years of rich and varied experience
               in the shipping and freight forwarding industry.
             </p>
-            <div className=" flex justify-end items-center gap-2 mt-[60px]">
+            <div className=" flex justify-end items-center gap-2 md:mt-[60px]">
               <p className=" text-color text-[14px] font-inter font-[600] leading-[14px]">
                 Read more
               </p>
@@ -51,11 +51,11 @@ const CaseStudies = () => {
           </div>
         </div>
 
-        <div className=" max-w-[1232px] mx-auto flex mt-[35px] bg-[#F0FFF7] border rounded-[15px]">
-          <div>
+        <div className=" max-w-[1232px] mx-auto lg:flex lg:mt-[81px] md:mt-[61px] bg-[#F1F2FF] border rounded-[15px]">
+          <div className=" md:mx-auto flex justify-center">
             <img src="/images/theme-two.png" alt="" className="w-[601px]" />
           </div>
-          <div className=" pt-[66px] px-[51px] max-w-[540px] inset-0">
+          <div className=" pt-[66px] px-[51px] md:max-w-[540px] md:ml-[25px] inset-0">
             <p className=" text-[28px] text-[#2D3748] font-inter font-[600] leading-[38.3px]">
               Website Design for SCFC Canada
             </p>
@@ -78,15 +78,15 @@ const CaseStudies = () => {
           </div>
         </div>
 
-        <div className=" max-w-[1232px] mx-auto flex mt-[35px] bg-[#E7DAED] border rounded-[15px]">
-          <div>
+        <div className=" max-w-[1232px] mx-auto lg:flex lg:mt-[81px] md:mt-[61px] bg-[#F1F2FF] border rounded-[15px]">
+          <div className=" md:mx-auto flex justify-center">
             <img
               src="/images/theme-three.png"
               alt=""
               className=" max-w-[601px]"
             />
           </div>
-          <div className=" pt-[66px] px-[51px] max-w-[540px] inset-0">
+          <div className=" pt-[66px] px-[51px] md:max-w-[540px] md:ml-[25px] inset-0">
             <p className=" text-[28px] text-[#2D3748] font-inter font-[600] leading-[38.3px]">
               Website Design for SCFC Canada
             </p>
@@ -98,7 +98,7 @@ const CaseStudies = () => {
               management boasts of over 20 years of rich and varied experience
               in the shipping and freight forwarding industry.
             </p>
-            <div className=" flex justify-end items-center gap-2 mt-[60px]">
+            <div className=" flex justify-end items-center gap-2 lg:mt-[60px] md:mt-[20px]">
               <p className=" text-color text-[14px] font-inter font-[600] leading-[14px]">
                 Read more
               </p>
@@ -109,7 +109,7 @@ const CaseStudies = () => {
           </div>
         </div>
 
-        <div className=" flex justify-end items-center gap-2 mt-[60px] w-[1240px] mx-auto">
+        <div className=" flex justify-end items-center gap-2 mt-[60px] xl:w-[1240px] mx-auto lg:max-w-[920px] md:max-w-[700px]">
           <p className=" text-color font-inter text-[20px] font-[600] leading-[27.3px]">
             Read more
           </p>

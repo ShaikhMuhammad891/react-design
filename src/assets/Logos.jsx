@@ -2,13 +2,13 @@ export const HeaderLogo = () => {
   return (
     <>
       <svg
-        width="180"
-        height="59"
+        width={180}
+        height={59}
         viewBox="0 0 180 59"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_205_23)">
+        <g clipPath="url(#clip0_205_23)">
           <path
             d="M23.2709 37.6609C20.7203 40.184 16.4006 40.174 15.1942 36.8113C14.958 36.1529 14.7691 35.476 14.6302 34.7852C14.0631 31.9649 14.3542 29.0416 15.4666 26.3849C16.579 23.7283 18.4629 21.4577 20.8798 19.8601C23.2969 18.2625 26.1385 17.4098 29.0454 17.4098C31.9523 17.4098 34.7939 18.2625 37.2109 19.8601C39.6279 21.4577 41.5117 23.7283 42.6241 26.385C43.7366 29.0416 44.0276 31.9649 43.4605 34.7852C43.3216 35.476 43.1328 36.1529 42.8965 36.8113C41.6901 40.174 37.3704 40.184 34.8198 37.6609L30.8826 33.7662C30.5064 33.3941 30.5453 32.7804 30.649 32.2643C30.7121 31.9506 30.6797 31.6254 30.5559 31.3298C30.4322 31.0343 30.2227 30.7817 29.9538 30.604C29.6849 30.4263 29.3688 30.3314 29.0454 30.3314C28.722 30.3314 28.4059 30.4263 28.137 30.604C27.8681 30.7817 27.6585 31.0343 27.5348 31.3298C27.411 31.6254 27.3786 31.9506 27.4418 32.2643C27.5455 32.7804 27.5843 33.3941 27.2081 33.7662L23.2709 37.6609Z"
             fill="url(#paint0_linear_205_23)"
@@ -59,9 +59,9 @@ export const HeaderLogo = () => {
             y2="24.6793"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#64C2DB" />
-            <stop offset="0.510417" stop-color="#7476ED" />
-            <stop offset="1" stop-color="#E56F8C" />
+            <stop stopColor="#64C2DB" />
+            <stop offset="0.510417" stopColor="#7476ED" />
+            <stop offset={1} stopColor="#E56F8C" />
           </linearGradient>
           <clipPath id="clip0_205_23">
             <rect
@@ -110,24 +110,24 @@ export const Line = () => {
   return (
     <>
       <svg
-        width="69"
-        height="5"
+        width={69}
+        height={5}
         viewBox="0 0 69 5"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <rect width="69" height="5" fill="url(#paint0_linear_196_145)" />
+        <rect width={69} height={5} fill="url(#paint0_linear_196_145)" />
         <defs>
           <linearGradient
             id="paint0_linear_196_145"
-            x1="69"
-            y1="0"
+            x1={69}
+            y1={0}
             x2="68.2791"
             y2="9.94776"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#F76680" />
-            <stop offset="1" stop-color="#57007B" />
+            <stop stopColor="#F76680" />
+            <stop offset={1} stopColor="#57007B" />
           </linearGradient>
         </defs>
       </svg>
@@ -139,23 +139,23 @@ export const ArrowForward = ({ color }) => {
   return (
     <>
       <svg
-        width="24"
-        height="25"
+        width={24}
+        height={25}
         viewBox="0 0 24 25"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <g clip-path="url(#clip0_235_61)">
+        <g clipPath="url(#clip0_235_61)">
           <path
             d="M16.172 11.5L10.808 6.13605L12.222 4.72205L20 12.5L12.222 20.278L10.808 18.864L16.172 13.5H4V11.5H16.172Z"
-            fill={color}
+            fill="{color}"
           />
         </g>
         <defs>
           <clipPath id="clip0_235_61">
             <rect
-              width="24"
-              height="24"
+              width={24}
+              height={24}
               fill="white"
               transform="translate(0 0.5)"
             />

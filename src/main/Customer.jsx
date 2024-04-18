@@ -7,6 +7,8 @@ import {
   QuoteStart,
 } from "../assets/Logos";
 
+import "./Services.css";
+
 const Customer = () => {
   return (
     <>
@@ -19,10 +21,10 @@ const Customer = () => {
             <ArrowForward color="red" />
           </div>
         </div>
-        <div className=" mt-[124px] flex justify-center">
+        <div className=" lg:mt-[124px] md:mt-[80px] flex justify-center">
           <Line />
         </div>
-        <p className=" mt-[20px] text-[#1A202C] text-[35px] leading-[55px] font-inter font-[400] text-center">
+        <p className=" mt-[20px] text-[#1A202C] lg:text-[35px] md:text-[28px] lg:leading-[55px] md:leading-[45px] font-inter font-[400] text-center">
           Why cutomers love
           <span className=" font-[700]">
             <br />
@@ -30,12 +32,12 @@ const Customer = () => {
           </span>
         </p>
 
-        <div className=" mt-[63px]  max-w-[727px] mx-auto relative">
+        <div className=" lg:mt-[63px] md:mt-[45px]  lg:max-w-[727px] md:max-w-[650px] mx-auto relative">
           <div className=" absolute top-1">
             <QuoteStart />
           </div>
 
-          <p className=" text-center text-[#718096] text-[18px] leading-[36px]  font-[400] font-inter max-w-[535px] mx-auto">
+          <p className=" text-center text-[#718096] lg:text-[18px] md:text-[16px] lg:leading-[36px] md:leading-[26px]  font-[400] font-inter max-w-[535px] mx-auto">
             Without any doubt I recommend Alcaline Solutions as one of the best
             web design and digital marketing agencies. One of the best agencies
             I’ve came across so far. Wouldn’t be hesitated to introduce their
@@ -45,7 +47,7 @@ const Customer = () => {
             <QuoteEnd />
           </div>
         </div>
-        <div className=" flex justify-center items-center gap-[76px] mt-[70px] mb-[140px]">
+        <div className=" flex justify-center items-center lg:gap-[76px] md:gap-[60px] mt-[70px] mb-[140px] overflow-x-scroll example">
           {data.map((e, i) => (
             <>
               <div
@@ -57,7 +59,7 @@ const Customer = () => {
                 <div className=" flex justify-center items-center">
                   <img src={e.img} alt="" className=" w-[85px] h-[85px] " />
                 </div>
-                <div className=" flex items-center justify-center gap-[5.48px] mt-[15px]">
+                <div className=" flex items-center justify-center lg:gap-[5.48px] md:gap-[2px] mt-[15px]">
                   {[...Array(5)].map((_, index) => (
                     <img
                       key={index}
