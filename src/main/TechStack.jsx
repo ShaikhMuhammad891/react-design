@@ -6,35 +6,35 @@ const TechStack = () => {
   return (
     <>
       <div>
-        <div className=" lg:mt-[80px] md:mt-[60px]">
+        <div className=" lg:mt-[80px] md:mt-[60px] mt-[40px]">
           <div className=" flex justify-center ">
             <Line />
           </div>
-          <p className=" lg:mt-[20px] md:mt-[15px] text-[#1A202C] lg:text-[35px] md:text-[28px] lg:leading-[55px] md:leading-[45px] font-inter font-[400] text-center">
+          <p className=" lg:mt-[20px] md:mt-[15px] mt-[10px] text-[25px]  text-[#1A202C] lg:text-[35px] md:text-[28px] lg:leading-[55px] md:leading-[45px] font-inter font-[400] text-center">
             Our{" "}
             <span className=" font-[700]">
               {" "}
               <br /> Tech Stack
             </span>
           </p>
-          <ul className=" flex justify-center mt-[38px] gap-x-[60px]">
-            <l className=" lg:text-[18px] md:text-[14px] font-inter font-[600] leading-[30px] text-color">
+          <ul className=" sm:flex justify-center mt-[38px] gap-x-[60px] grid grid-rows-2 grid-flow-col mb:text-center">
+            <l className=" lg:text-[18px] md:text-[14px] text-[12px] font-inter font-[600] leading-[30px] text-color">
               {" "}
               Backend{" "}
             </l>
-            <l className=" lg:text-[18px] md:text-[14px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
+            <l className=" lg:text-[18px] md:text-[14px] text-[12px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
               Frontend
             </l>
-            <l className=" lg:text-[18px] md:text-[14px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
+            <l className=" lg:text-[18px] md:text-[14px] text-[12px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
               Database
             </l>
-            <l className=" lg:text-[18px] md:text-[14px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
+            <l className=" lg:text-[18px] md:text-[14px] text-[12px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
               CMS
             </l>
-            <l className=" lg:text-[18px] md:text-[14px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
+            <l className=" lg:text-[18px] md:text-[14px] text-[12px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
               CloudTesting
             </l>
-            <l className=" lg:text-[18px] md:text-[14px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
+            <l className=" lg:text-[18px] md:text-[14px] text-[12px] font-inter font-[400] leading-[30px] text-[#1A202C] ">
               DevOps
             </l>
           </ul>

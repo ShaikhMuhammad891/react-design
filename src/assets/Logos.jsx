@@ -148,7 +148,7 @@ export const ArrowForward = ({ color }) => {
         <g clipPath="url(#clip0_235_61)">
           <path
             d="M16.172 11.5L10.808 6.13605L12.222 4.72205L20 12.5L12.222 20.278L10.808 18.864L16.172 13.5H4V11.5H16.172Z"
-            fill="{color}"
+            fill={color}
           />
         </g>
         <defs>
@@ -156,7 +156,7 @@ export const ArrowForward = ({ color }) => {
             <rect
               width={24}
               height={24}
-              fill="white"
+              fill="green"
               transform="translate(0 0.5)"
             />
           </clipPath>

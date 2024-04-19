@@ -98,32 +98,32 @@ const Services = () => {
   };
 
   return (
-    <div className="bg-[#F9F9FF] border-y border-[#E7DAED] lg:pb-[150px] md:pb-[100px] relative">
-      <p className="text-[#1A202C] lg:text-[35px] md:text-[28px] font-[700] lg:leading-[55px] md:leading-[40px] lg:mt-[45px] md:mt-[35px] font-inter text-center">
+    <div className="bg-[#F9F9FF] border-y border-[#E7DAED] lg:pb-[150px] md:pb-[100px] pb-[50px] relative">
+      <p className="text-[#1A202C] lg:text-[35px] md:text-[28px] text-[18px] md:font-[700] font-[500] mt-[20px] lg:leading-[55px] md:leading-[40px] lg:mt-[45px] md:mt-[35px] font-inter text-center">
         Services we offer
       </p>
       {/* <Slider {...settings}> */}
-      <div className=" example flex lg:gap-[39px] md:gap-[25px] overflow-x-scroll max-w-[1440px] w-full lg:mt-[63px] md:mt-[43px] relative">
+      <div className=" example flex lg:gap-[39px] md:gap-[25px] overflow-x-scroll max-w-[1440px] w-full lg:mt-[63px] md:mt-[43px] mt-[20px] gap-4 relative">
         {data.map((element, index) => (
           <div
-            key={index}
-            className={` border border-red-400 lg:min-w-[333px] md:min-w-[233px] w-full rounded-[7px] lg:pl-[16px] md:pl-[12px] lg:py-[38.5px] md:py-[20px]`}
+            key={index + "services"}
+            className={` border border-red-400 p-2 lg:min-w-[333px] md:min-w-[233px] min-w-[200px] w-full rounded-[7px] lg:pl-[16px] md:pl-[12px] lg:py-[38.5px] md:py-[20px]`}
           >
             <div className="slide-content">
               <img
                 src={element.img}
                 alt="img"
-                className="border border-[#F76680] rounded-full p-2 logo "
+                className="border border-[#F76680] rounded-full md:p-2 p-1  logo "
               />
               <div>
                 <p
-                  className={` lg:text-[20px] md:text-[16px] font-inter font-[600] lg:leading-[27.3px] md:leading-[21px] lg:mt-[15px] md:mt-[10px] ${
+                  className={` lg:text-[20px] md:text-[16px] text-[12px] mt-2 font-inter font-[600] lg:leading-[27.3px] md:leading-[21px] lg:mt-[15px] md:mt-[10px] ${
                     index === 0 ? "text-red-500" : ""
                   } `}
                 >
                   {element.title}
                 </p>
-                <p className=" lg:mt-[20px] md:mt-[15px] font-inter font-[400] lg:text-[14px] md:text-[10px] lg:leading-[22.68px] md:leading-4 text-[#4A5568] max-w-[301px]">
+                <p className=" lg:mt-[20px]  mt-2 text-[10px] font-[300] md:mt-[15px] font-inter md:font-[400] lg:text-[14px] leading-3 md:lg:leading-[22.68px] md:leading-4 text-[#4A5568] max-w-[301px]">
                   {element.description}
                 </p>
               </div>

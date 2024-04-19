@@ -9,7 +9,7 @@ const Approach = () => {
           <div className=" flex justify-center">
             <Line />
           </div>
-          <p className=" text-[35px] font-inter font-[400] text-center leading-[55px] mt-[20px] text-[#1A202C]">
+          <p className=" lg:text-[35px] md:text-[28px] text-[25px] font-inter font-[400] text-center lg:leading-[55px] md:leading-[45px] leading-[35px] mt-[20px] text-[#1A202C]">
             Our design and
             <span className=" font-[700]">
               <br /> development approach
@@ -18,22 +18,22 @@ const Approach = () => {
         </div>
 
         {/* map the data */}
-        <div className="grid xl:grid-rows-3 grid-flow-col gap-[25px] mt-[80px] xl:max-w-[1233px] mb-[98px] lg:grid-rows-6 lg:max-w-[610px] mx-auto md:grid-rows-6 md:max-w-[550px] ">
+        <div className="grid xl:grid-rows-3 grid-flow-col gap-[25px] lg:mt-[80px] md:mt-[70px] mt-[40px] xl:max-w-[1233px] mb-[98px] lg:grid-rows-6 lg:max-w-[610px] mx-auto md:grid-rows-6 md:max-w-[550px] grid-rows-6 sm:max-w-[450px] ">
           {data.map((e, i) => {
             return (
               <>
-                <div className=" lg:w-[550px] flex border border-[#E7DAED] pt-[39px] pl-[14px] bg-[#FAFAFA] pb-[58px] ">
+                <div className=" lg:w-[550px] flex border border-[#E7DAED] md:pt-[39px] md:pl-[14px] bg-[#FAFAFA] md:pb-[58px] px-3 py-3 ">
                   <div
                     style={{ background: e.bg }}
                     className={` w-[59px] h-[56px] px-[10px] py-[10px] rounded-lg`}
                   >
                     <img src={e.logo} alt="" className=" w-[35px] h-[35px]" />
                   </div>
-                  <div className=" max-w-[453px] ml-[25px]">
-                    <p className=" font-inter font-[600] text-[2opx] leading-[27.5px] text-[#1A202C]">
+                  <div className=" md:max-w-[453px] max-w-[300px] md:ml-[25px] ml-[15px]">
+                    <p className=" font-inter font-[600] md:text-[20px] text-[15px] md:leading-[27.5px] leading-[20px] text-[#1A202C]">
                       {e.title}
                     </p>
-                    <p className=" font-[400] font-inter text-[14px] leading-[22.68px] text-[#4A5568] mt-[10px]">
+                    <p className=" md:font-[400] font-[300] font-inter md:text-[14px] text-[12px] md:leading-[22.68px] leading-[15px] text-[#4A5568] mt-[10px]">
                       {e.description}
                     </p>
                   </div>

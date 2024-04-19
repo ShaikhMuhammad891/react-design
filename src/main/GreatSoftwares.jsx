@@ -14,12 +14,12 @@ import "./Services.css";
 const GreatSoftwares = () => {
   return (
     <>
-      <div className="container lg:mt-[80px] md:mt-[60px]">
+      <div className="container lg:mt-[80px] md:mt-[60px] mt-[40px]">
         <div className="">
           <div className=" flex justify-center">
             <Line />
           </div>
-          <p className=" text-[#1A202C] lg:text-[35px] md:text-[28px] lg:leading-[55px] md:leading-[45px] font-[400] font-inter text-center mt-[20px]">
+          <p className=" text-[#1A202C] lg:text-[35px] md:text-[28px] text-[25px] lg:leading-[55px] md:leading-[45px] font-[400] font-inter text-center mt-[20px]">
             Way of building
             <span className=" font-[700]">
               <br />
@@ -31,15 +31,15 @@ const GreatSoftwares = () => {
         {/* one */}
 
         <div className=" xl:max-w-[1233px] w-full mx-auto relative">
-          <div className=" absolute xl:min-w-[120px]  flex justify-center xl:ml-[600px] lg:ml-[420px] top-[-25px] md:top-[310px] md:left-[555px]">
+          <div className=" absolute xl:min-w-[120px]  flex justify-center xl:ml-[600px] lg:ml-[420px] md:top-[310px] md:left-[555px] top-[300px] left-[300px]">
             <YellowEclips />
           </div>
-          <div className=" min-w-[123px] flex justify-center xl:ml-[830px] absolute xl:bottom-[-18px] lg:bottom-[-6px] lg:ml-[700px] md:hidden lg:block">
+          <div className=" min-w-[123px] flex justify-center xl:ml-[830px] absolute xl:bottom-[-18px] lg:bottom-[-6px] lg:ml-[700px] sm:hidden lg:block">
             <LittleEclips />
           </div>
-          <div className=" lg:flex lg:justify-between lg:mt-[73px] md:ml-4">
+          <div className=" lg:flex lg:justify-between lg:mt-[73px] md:ml-4 mx-6">
             <div className="xl:w-[534px] xl:h-[473px] lg:max-w-[380px] lg:px-2">
-              <p className=" lg:text-[28px] md:text-[22px] font-inter font-[600] leading-[38.9px] text-[#1A202C] mt-[20px]">
+              <p className=" lg:text-[28px] md:text-[22px] text-[20px] font-inter font-[600] leading-[38.9px] text-[#1A202C] mt-[20px]">
                 Build the right team to scale
               </p>
               <p className=" text-[#2D3748] xl:text-[18px] lg:text-[16px] md:text-[14px] font-inter font-[400] lg:leading-[30px] md:leading-[25px] lg:mt-[30px] md:mt-[20px] md:max-w-[600px] lg:h-[113px]">
@@ -78,7 +78,7 @@ const GreatSoftwares = () => {
                 </div>
               </div>
             </div>
-            <div className=" relative md:mt-4 ">
+            <div className=" relative mt-4 ">
               <img src="/images/dev-one.png" alt="" />
             </div>
           </div>
@@ -87,19 +87,19 @@ const GreatSoftwares = () => {
         {/* two */}
 
         <div className="max-w-[1233px] w-full mx-auto relative">
-          <div className=" min-w-[133px] flex justify-start ml-[550px] absolute mt-[-12px] ">
+          <div className=" min-w-[133px] flex justify-start lg:ml-[550px] sm:ml-[350px] absolute mt-[-12px] sm:top-[-20px] z-[-1] ">
             <LittleEclips />
           </div>
           <div className=" min-w-[133px] absolute bottom-[-33px] ml-[100px] ">
             <YellowEclips />
           </div>
 
-          <div className=" lg:flex lg:justify-between lg:mt-[73px] md:ml-4">
+          <div className=" lg:flex lg:justify-between lg:mt-[73px] md:ml-4 ml-6">
             <div className="relative hidden lg:block">
               <img src="/images/dev-two.png" alt="" />
             </div>
             <div className="xl:w-[534px] xl:h-[473px] lg:max-w-[380px] lg:px-2">
-              <p className=" lg:text-[28px] md:text-[22px] font-inter font-[600] leading-[38.9px] text-[#1A202C] mt-[20px]">
+              <p className=" lg:text-[28px] md:text-[22px] text-[20px] font-inter font-[600] leading-[38.9px] text-[#1A202C] mt-[20px]">
                 Build the right team to scale
               </p>
               <p className=" text-[#2D3748] xl:text-[18px] lg:text-[16px] md:text-[14px] font-inter font-[400] lg:leading-[30px] md:leading-[25px] lg:mt-[30px] md:mt-[20px] md:max-w-[600px] lg:h-[113px]">
@@ -138,7 +138,7 @@ const GreatSoftwares = () => {
                 </div>
               </div>
             </div>
-            <div className="relative lg:hidden md:block md:mt-4">
+            <div className="relative lg:hidden md:block md:mt-4 mt-4">
               <img src="/images/dev-two.png" alt="" />
             </div>
           </div>
@@ -147,16 +147,16 @@ const GreatSoftwares = () => {
         {/* three */}
 
         <div className=" max-w-[1233px] w-full mx-auto relative">
-          <div className=" absolute flex justify-center bottom-[-16px] min-w-[120px] ml-[600px] md:ml-[520px]">
+          <div className=" absolute flex justify-center bottom-[-16px] min-w-[120px] sm:ml-[300px] md:ml-[520px] ml-[100px] ">
             <LittleYellow />
           </div>
-          <div className=" min-w-[133px] flex justify-center absolute ml-[850px] top-[-16px] md:hidden lg:block">
+          <div className=" min-w-[133px] flex justify-center absolute ml-[850px] top-[-16px] lg:block mb:hidden">
             <LittleEclips />
           </div>
           <div></div>
-          <div className=" lg:flex lg:justify-between lg:mt-[73px] md:ml-4 md:mt-8">
+          <div className=" lg:flex lg:justify-between lg:mt-[73px] md:ml-4 md:mt-8 mt-6 ml-6">
             <div className="xl:w-[534px] xl:h-[473px] lg:max-w-[380px] lg:px-2">
-              <p className=" lg:text-[28px] md:text-[22px] font-inter font-[600] leading-[38.9px] text-[#1A202C] mt-[20px]">
+              <p className=" lg:text-[28px] md:text-[22px] text-[20px] font-inter font-[600] leading-[38.9px] text-[#1A202C] mt-[20px]">
                 Build the right team to scale
               </p>
               <p className=" text-[#2D3748] xl:text-[18px] lg:text-[16px] md:text-[14px] font-inter font-[400] lg:leading-[30px] md:leading-[25px] lg:mt-[30px] md:mt-[20px] md:max-w-[600px] lg:h-[113px]">
@@ -195,7 +195,7 @@ const GreatSoftwares = () => {
                 </div>
               </div>
             </div>
-            <div className=" relative md:mt-4">
+            <div className=" relative md:mt-4 mt-4">
               <img src="/images/dev-three.png" alt="" />
             </div>
           </div>

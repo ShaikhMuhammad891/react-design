@@ -21,7 +21,7 @@ const Customer = () => {
             <ArrowForward color="red" />
           </div>
         </div>
-        <div className=" lg:mt-[124px] md:mt-[80px] flex justify-center">
+        <div className=" lg:mt-[124px] md:mt-[80px] flex justify-center mt-[50px]">
           <Line />
         </div>
         <p className=" mt-[20px] text-[#1A202C] lg:text-[35px] md:text-[28px] lg:leading-[55px] md:leading-[45px] font-inter font-[400] text-center">
@@ -32,12 +32,12 @@ const Customer = () => {
           </span>
         </p>
 
-        <div className=" lg:mt-[63px] md:mt-[45px]  lg:max-w-[727px] md:max-w-[650px] mx-auto relative">
+        <div className=" lg:mt-[63px] md:mt-[45px]  lg:max-w-[727px] md:max-w-[650px] mx-auto relative max-w-[550px] ">
           <div className=" absolute top-1">
             <QuoteStart />
           </div>
 
-          <p className=" text-center text-[#718096] lg:text-[18px] md:text-[16px] lg:leading-[36px] md:leading-[26px]  font-[400] font-inter max-w-[535px] mx-auto">
+          <p className=" text-center text-[#718096] lg:text-[18px] md:text-[16px] lg:leading-[36px] md:leading-[26px] text-[14px] mt-[10px] leading-[23px] font-[400] font-inter max-w-[535px] mx-auto">
             Without any doubt I recommend Alcaline Solutions as one of the best
             web design and digital marketing agencies. One of the best agencies
             I’ve came across so far. Wouldn’t be hesitated to introduce their
@@ -47,13 +47,13 @@ const Customer = () => {
             <QuoteEnd />
           </div>
         </div>
-        <div className=" flex justify-center items-center lg:gap-[76px] md:gap-[60px] mt-[70px] mb-[140px] overflow-x-scroll example">
+        <div className=" flex justify-center items-center lg:gap-[76px] md:gap-[60px] gap-4 mt-[70px]  mb-[140px] example">
           {data.map((e, i) => (
             <>
               <div
                 key={i}
                 className={`${
-                  i === 2 ? " opacity-100 transform scale-110" : " opacity-60"
+                  i === 2 ? " opacity-100 transform scale-110" : " opacity-70"
                 }`}
               >
                 <div className=" flex justify-center items-center">
@@ -65,7 +65,7 @@ const Customer = () => {
                       key={index}
                       src={e.rating}
                       alt=""
-                      className=" w-[20px] h-[20px]"
+                      className=" md:w-[20px] md:h-[20px] w-[12px] h-[12px]"
                     />
                   ))}
                 </div>
@@ -73,8 +73,8 @@ const Customer = () => {
                 <p
                   className={` ${
                     i === 2
-                      ? " text-[#57007B] mt-[15px] text-[18px] text-center font-inter font-[700] leading-[21.78px]"
-                      : "  text-[16px] leading-[25px] font-inter font-[500] text-center text-[#A0AEC0] mt-[15px]"
+                      ? " text-[#57007B] md:mt-[15px] mt-[10px] md:text-[18px] text-[15px] text-center font-inter md:font-[700] font-[500] md:leading-[21.78px] leading-5"
+                      : "  md:text-[16px] text-[14px] md:leading-[25px] leading-5 font-inter font-[500] text-center text-[#A0AEC0] mt-[15px]"
                   }`}
                 >
                   {e.name}
@@ -82,8 +82,8 @@ const Customer = () => {
                 <p
                   className={`${
                     i === 2
-                      ? " font-inter font-[400] text-black text-[12px] text-center"
-                      : "font-inter font-[400] text-[11px] text-[#E2E8F0] text-center"
+                      ? " font-inter md:font-[400] font-[300] text-black md:text-[12px] text-[10px] text-center"
+                      : "font-inter md:font-[400] md:text-[11px] text-[9px] font-[300] text-[#E2E8F0] text-center"
                   }`}
                 >
                   {e.shop}
@@ -93,12 +93,20 @@ const Customer = () => {
           ))}
         </div>
         <div className="  w-full mx-auto flex justify-center">
-          <div className=" flex justify-between absolute max-w-[1063px] w-full mt-[-100px]">
+          <div className=" flex justify-between absolute max-w-[1063px] w-full md:mt-[-100px] mt-[-50px] ">
             <div>
-              <img src="/images/deco-up.png" alt="" />
+              <img
+                src="/images/deco-up.png"
+                alt=""
+                className=" max-h-[130px] md:max-h-max"
+              />
             </div>
             <div>
-              <img src="/images/deco-down.png" alt="" />
+              <img
+                src="/images/deco-down.png"
+                alt=""
+                className=" max-h-[130px] md:max-h-max"
+              />
             </div>
           </div>
         </div>
